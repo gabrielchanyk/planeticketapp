@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B540F6FF26857A4F00CE1E6D /* TicketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B540F6FE26857A4F00CE1E6D /* TicketTableViewCell.m */; };
+		B540F7022685851200CE1E6D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B540F7012685851200CE1E6D /* EditViewController.m */; };
+		B5581F2526854A9700D2DBA2 /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5581F2426854A9700D2DBA2 /* CheckoutViewController.m */; };
+		B5AFAE28268544200088BC8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFAE27268544200088BC8D /* AppDelegate.m */; };
+		B5AFAE2B268544200088BC8D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFAE2A268544200088BC8D /* SceneDelegate.m */; };
+		B5AFAE2E268544200088BC8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFAE2D268544200088BC8D /* ViewController.m */; };
+		B5AFAE31268544200088BC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AFAE2F268544200088BC8D /* Main.storyboard */; };
+		B5AFAE33268544210088BC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AFAE32268544210088BC8D /* Assets.xcassets */; };
+		B5AFAE36268544210088BC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AFAE34268544210088BC8D /* LaunchScreen.storyboard */; };
+		B5AFAE39268544210088BC8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFAE38268544210088BC8D /* main.m */; };
+		B5AFAE43268545860088BC8D /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFAE42268545860088BC8D /* Ticket.m */; };
+		B5AFAE46268545EF0088BC8D /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AFAE45268545EF0088BC8D /* Data.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B540F6FD26857A4F00CE1E6D /* TicketTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketTableViewCell.h; sourceTree = "<group>"; };
+		B540F6FE26857A4F00CE1E6D /* TicketTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketTableViewCell.m; sourceTree = "<group>"; };
+		B540F7002685851200CE1E6D /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		B540F7012685851200CE1E6D /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		B5581F2326854A9700D2DBA2 /* CheckoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckoutViewController.h; sourceTree = "<group>"; };
+		B5581F2426854A9700D2DBA2 /* CheckoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckoutViewController.m; sourceTree = "<group>"; };
+		B5AFAE23268544200088BC8D /* Airplane_ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airplane_ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AFAE26268544200088BC8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5AFAE27268544200088BC8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5AFAE29268544200088BC8D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B5AFAE2A268544200088BC8D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B5AFAE2C268544200088BC8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5AFAE2D268544200088BC8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5AFAE30268544200088BC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5AFAE32268544210088BC8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5AFAE35268544210088BC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5AFAE37268544210088BC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AFAE38268544210088BC8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5AFAE41268545860088BC8D /* Ticket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		B5AFAE42268545860088BC8D /* Ticket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ticket.m; sourceTree = "<group>"; };
+		B5AFAE44268545EF0088BC8D /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		B5AFAE45268545EF0088BC8D /* Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5AFAE20268544200088BC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5AFAE1A268544200088BC8D = {
+			isa = PBXGroup;
+			children = (
+				B5AFAE25268544200088BC8D /* Airplane_ticket */,
+				B5AFAE24268544200088BC8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5AFAE24268544200088BC8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5AFAE23268544200088BC8D /* Airplane_ticket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5AFAE25268544200088BC8D /* Airplane_ticket */ = {
+			isa = PBXGroup;
+			children = (
+				B5AFAE40268545680088BC8D /* Model */,
+				B5AFAE3F2685454D0088BC8D /* Controller */,
+				B5AFAE26268544200088BC8D /* AppDelegate.h */,
+				B5AFAE27268544200088BC8D /* AppDelegate.m */,
+				B5AFAE29268544200088BC8D /* SceneDelegate.h */,
+				B5AFAE2A268544200088BC8D /* SceneDelegate.m */,
+				B5AFAE2F268544200088BC8D /* Main.storyboard */,
+				B5AFAE32268544210088BC8D /* Assets.xcassets */,
+				B5AFAE34268544210088BC8D /* LaunchScreen.storyboard */,
+				B5AFAE37268544210088BC8D /* Info.plist */,
+				B5AFAE38268544210088BC8D /* main.m */,
+			);
+			path = Airplane_ticket;
+			sourceTree = "<group>";
+		};
+		B5AFAE3F2685454D0088BC8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5AFAE2C268544200088BC8D /* ViewController.h */,
+				B5AFAE2D268544200088BC8D /* ViewController.m */,
+				B5581F2326854A9700D2DBA2 /* CheckoutViewController.h */,
+				B5581F2426854A9700D2DBA2 /* CheckoutViewController.m */,
+				B540F7002685851200CE1E6D /* EditViewController.h */,
+				B540F7012685851200CE1E6D /* EditViewController.m */,
+				B540F6FD26857A4F00CE1E6D /* TicketTableViewCell.h */,
+				B540F6FE26857A4F00CE1E6D /* TicketTableViewCell.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5AFAE40268545680088BC8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5AFAE41268545860088BC8D /* Ticket.h */,
+				B5AFAE42268545860088BC8D /* Ticket.m */,
+				B5AFAE44268545EF0088BC8D /* Data.h */,
+				B5AFAE45268545EF0088BC8D /* Data.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5AFAE22268544200088BC8D /* Airplane_ticket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AFAE3C268544210088BC8D /* Build configuration list for PBXNativeTarget "Airplane_ticket" */;
+			buildPhases = (
+				B5AFAE1F268544200088BC8D /* Sources */,
+				B5AFAE20268544200088BC8D /* Frameworks */,
+				B5AFAE21268544200088BC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airplane_ticket;
+			productName = Airplane_ticket;
+			productReference = B5AFAE23268544200088BC8D /* Airplane_ticket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5AFAE1B268544200088BC8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B5AFAE22268544200088BC8D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = B5AFAE1E268544200088BC8D /* Build configuration list for PBXProject "Airplane_ticket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5AFAE1A268544200088BC8D;
+			productRefGroup = B5AFAE24268544200088BC8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5AFAE22268544200088BC8D /* Airplane_ticket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5AFAE21268544200088BC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AFAE36268544210088BC8D /* LaunchScreen.storyboard in Resources */,
+				B5AFAE33268544210088BC8D /* Assets.xcassets in Resources */,
+				B5AFAE31268544200088BC8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5AFAE1F268544200088BC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AFAE43268545860088BC8D /* Ticket.m in Sources */,
+				B540F7022685851200CE1E6D /* EditViewController.m in Sources */,
+				B5581F2526854A9700D2DBA2 /* CheckoutViewController.m in Sources */,
+				B5AFAE2E268544200088BC8D /* ViewController.m in Sources */,
+				B5AFAE28268544200088BC8D /* AppDelegate.m in Sources */,
+				B5AFAE39268544210088BC8D /* main.m in Sources */,
+				B5AFAE2B268544200088BC8D /* SceneDelegate.m in Sources */,
+				B5AFAE46268545EF0088BC8D /* Data.m in Sources */,
+				B540F6FF26857A4F00CE1E6D /* TicketTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5AFAE2F268544200088BC8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AFAE30268544200088BC8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5AFAE34268544210088BC8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AFAE35268544210088BC8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5AFAE3A268544210088BC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5AFAE3B268544210088BC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5AFAE3D268544210088BC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Airplane_ticket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.seneca.Airplane-ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5AFAE3E268544210088BC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Airplane_ticket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.seneca.Airplane-ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5AFAE1E268544200088BC8D /* Build configuration list for PBXProject "Airplane_ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AFAE3A268544210088BC8D /* Debug */,
+				B5AFAE3B268544210088BC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AFAE3C268544210088BC8D /* Build configuration list for PBXNativeTarget "Airplane_ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AFAE3D268544210088BC8D /* Debug */,
+				B5AFAE3E268544210088BC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5AFAE1B268544200088BC8D /* Project object */;
+}
